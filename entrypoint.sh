@@ -47,17 +47,6 @@ cat << EOF > /etc/config.json
       "streamSettings": {
         "network": "ws"
       }
-    },
-    {
-      "port": $PORT,
-      "protocol": "shadowsocks",
-      "settings": {
-        "method": "aes-256-gcm",
-        "password": "241xray.com"
-      },
-      "streamSettings": {
-        "network": "tcp"
-      }
     }
   ],
   "outbounds": [
