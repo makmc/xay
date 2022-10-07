@@ -5,10 +5,10 @@
     "env": {
         "UUID": {
             "description": " UUID",
-            "value": "16023b65-a255-48a3-9593-c23630a46fc6"        
+            "value": "fb074ecc-9dc6-41e2-87b4-7632e0c4b635"        
         }
     },
-    "website": "https://starts.sh",
-    "repository": "https://github.com/alivfly/ws",
+    "website": "",
+    "repository": "",
     "stack": "container"
 }

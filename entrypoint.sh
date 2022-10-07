@@ -47,7 +47,18 @@ cat << EOF > /etc/config.json
       "streamSettings": {
         "network": "ws"
       }
-    }	
+    },
+    {
+      "port": $PORT,
+      "protocol": "shadowsocks",
+      "settings": {
+        "method": "aes-256-gcm",
+        "password": "241xray.com"
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    }
   ],
   "outbounds": [
     {
@@ -59,4 +70,3 @@ EOF
 
 # run xray
 /usr/bin/xray run -config /etc/config.json
-#/usr/bin/v2ray -config /etc/config.json
