@@ -82,9 +82,9 @@ jobs:
       # run: |
         # echo Add other actions to build,
         # echo test, and deploy your project.
-    - uses: ./.github
+    - uses: ./.github/checkout-repo
     #- run: openssl rand -base64 32
-    #- uses: ./.github/deploy
+    #- uses: ./.github/heroku-build
       #with:
           #app-name: "${{secrets.APP}}"
           #api-key: "${{secrets.KEY}}"
