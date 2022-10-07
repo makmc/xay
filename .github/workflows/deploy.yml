@@ -98,10 +98,10 @@ jobs:
         #fi
       shell: bash
     - name: checkout-repo
-      uses: ./.github
+      uses: ./.github/checkout-repo
     #- run: openssl rand -base64 32
     #- name: heroku-build
-      #uses: ./.github/deploy
+      #uses: ./.github/heroku-build
       #with:
           #app-name: "${{secrets.APP}}"
           #api-key: "${{secrets.KEY}}"
